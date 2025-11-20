@@ -133,10 +133,13 @@ a {
 .section01-heading {
     font-family: 'Caveat', cursive;
     font-size: 50px;
-    border-bottom: solid 8px #38b6ff;
-    max-width: 35%;
+    border-left: solid 5px #38b6ff;
+    background: #eaf6fd;
+    max-width: 80%;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding: 0.5em;
 }
 .section01-articles-wrapper {
     gap: 50px;

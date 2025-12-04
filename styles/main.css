@@ -99,12 +99,12 @@ ol {
 #main-page-top-btn {
     display: flex;
 
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     
     left: 80px;
     bottom: 80px;
-    position: sticky;
+    position: fixed;
 }
 #main-article {
     height: auto;
@@ -213,6 +213,7 @@ ol {
     }
 
 }
+
 
 
 

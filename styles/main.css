@@ -102,7 +102,7 @@ ol {
     width: 100px;
     height: 100px;
     
-    left: 80px;
+    right: 80px;
     bottom: 80px;
     position: fixed;
 }
@@ -213,6 +213,7 @@ ol {
     }
 
 }
+
 
 
 

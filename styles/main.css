@@ -88,15 +88,7 @@ ol {
     }    
 }
 
-
-/* Main */
-#main {
-    margin: 50px 4%;
-
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-#main-page-top-btn {
+#page-top-btn {
     display: flex;
 
     width: 100px;
@@ -105,6 +97,14 @@ ol {
     right: 80px;
     bottom: 80px;
     position: fixed;
+}
+
+/* Main */
+#main {
+    margin: 50px 4%;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 #main-article {
     height: auto;
@@ -213,6 +213,7 @@ ol {
     }
 
 }
+
 
 
 

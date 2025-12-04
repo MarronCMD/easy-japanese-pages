@@ -40,7 +40,7 @@ ol {
 }
 #header-lang-selecter {
     /* Arrow Mark */
-    background-image: url(../images/down_arrow.png);
+    background-image: url(https://github.com/MarronCMD/easy-japanese-assets/blob/15d3a283e615c4688cf03544ffdb4ac1c21797eb/images/header/down_arrow.png);
     background-size: 15px;
     background-position: right 10px center;
 
@@ -203,3 +203,4 @@ ol {
     }
 
 }
+

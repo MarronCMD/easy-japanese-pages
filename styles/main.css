@@ -94,8 +94,8 @@ ol {
     width: 80px;
     height: 80px;
     
-    right: 30px;
-    bottom: 30px;
+    right: 50px;
+    bottom: 50px;
     position: fixed;
 }
 
@@ -213,6 +213,7 @@ ol {
     }
 
 }
+
 
 
 

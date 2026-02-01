@@ -55,7 +55,7 @@ ul {
 
     padding: 0 10px;
 
-    background-image: url(../images/header/down_arrow.png);
+    background-image: url(https://marroncmd.github.io/easy-japanese-assets/images/header/down_arrow.png);
     background-size: 25px;
     background-position: right 10px center;
 
@@ -705,6 +705,7 @@ ul {
         padding-left: 15px;
     }
 }
+
 
 
 

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FHS EASY JAPANESE PORTAL - Search</title>
+        <!-- Reset CSS (ress.css) -->
+         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!-- Main CSS -->
+         <link rel="stylesheet" href="../styles/search.css">
+    </head>
+    <body>
+        <header id="header">
+            <div id="header-img-wrapper">
+                <img id="header-humberger" src="../images/header/humberger_icon.png">
+                <img id="header-logo" src="../images/header/logo.png">
+            </div>
+            <nav id="header-nav">
+                <div id="header-lang-selecter-wrapper">
+                    <select id="header-lang-selecter">
+                        <option value="en">English (English)</option>
+                        <option value="ja">日本語 (Japanese)</option>
+                    </select>
+                </div>
+            </nav>
+        </header>
+        <nav id="nav">
+            <ul id="nav-list">
+                <li class="nav-list-item"><a href="../index.html"><span class="nav-list-item-num">01</span>HOME</a></li>
+                <li class="nav-list-item"><a href=""><span class="nav-list-item-num">02</span>SEARCH</a></li>
+            </ul>
+            <p id="nav-close">CLOSE</p>
+        </nav>
+        <div id="nav-bg"></div>
+        <main id="main">
+            <div id="main-title-wrapper">
+                <h1 id="main-title">Search Page</h1>
+                <hr id="main-title-ul">
+            </div>
+            <div id="main-search-box-wrapper">
+                <img id="main-search-btn" src="../images/main/search_btn.png">
+                <input id="main-search-box" type="text" placeholder="Enter keywords in English">
+            </div>
+            <div class="art-wrapper" id="arts"></div>
+        </main>
+
+        <!-- Popup Contents -->
+        <input type="checkbox" class="art-popup-cb" id="art01-popup">
+        <label class="art-popup-bg" for="art01-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When introducing yourself</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; My name is ~. Nice to meet you.</p>
+                <p class="art-popup-phrase pron">- Watashi no namae wa ~ desu. Yoroshiku onegai shi masu.</p>
+                <p class="art-popup-phrase ja">- わたし の なまえ は ～ です。よろしく おねがい し ます。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; I came from ~.</p>
+                <p class="art-popup-phrase pron">- Watashi wa ~ kara ki mashita.</p>
+                <p class="art-popup-phrase ja">- わたし は ～ から き ました。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9334; I'm 16 / 17 / 18 years old.</p>
+                <p class="art-popup-phrase pron">- Watashi wa ju-roku / ju-nana / ju-hachi sai desu.</p>
+                <p class="art-popup-phrase ja">- わたし は 16 / 17 / 18 さい です。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art02-popup">
+        <label class="art-popup-bg" for="art02-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When conveying your Japanese language ability</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I can speak a little Japanese.</p>
+                <p class="art-popup-phrase pron">- Nihonngo wa sukoshi deki masu.</p>
+                <p class="art-popup-phrase ja">- にほんご は すこし でき ます。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Japanese is still difficult for me.</p>
+                <p class="art-popup-phrase pron">- Nihonngo wa mada muzukashii desu.</p>
+                <p class="art-popup-phrase ja">- にほんご は まだ むずかしい です。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art03-popup">
+        <label class="art-popup-bg" for="art03-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When asking someone to repeat or confirm something</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Please tell me again.</p>
+                <p class="art-popup-phrase pron">- Mou ichido itte kudasai.</p>
+                <p class="art-popup-phrase ja">- もう いちど いって ください。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please speak slowly.</p>
+                <p class="art-popup-phrase pron">- Yukkuri hanashite kudasai.</p>
+                <p class="art-popup-phrase ja">- ゆっくり はなして ください。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9334; What do you mean?</p>
+                <p class="art-popup-phrase pron">- Sore wa dou iu imi desu ka?</p>
+                <p class="art-popup-phrase ja">- それ は どう いう いみ です か？</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art04-popup">
+        <label class="art-popup-bg" for="art04-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When seeking help</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I don't quite understand.</p>
+                <p class="art-popup-phrase pron">- Yoku wakari mase nn.</p>
+                <p class="art-popup-phrase ja">- よく わかり ませ ん。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please help me.</p>
+                <p class="art-popup-phrase pron">- Tasuke te kudasai</p>
+                <p class="art-popup-phrase ja">- たすけ て ください。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9334; I have a question.</p>
+                <p class="art-popup-phrase pron">- Shitsumonn ga ari masu.</p>
+                <p class="art-popup-phrase ja">- しつもん が あり ます。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art05-popup">
+        <label class="art-popup-bg" for="art05-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When being guided or moving</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Where is this?</p>
+                <p class="art-popup-phrase pron">- Koko wa doko desu ka?</p>
+                <p class="art-popup-phrase ja">- ここ は どこ です か？</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; I want to go to ~.</p>
+                <p class="art-popup-phrase pron">- ~ e iki tai desu.</p>
+                <p class="art-popup-phrase ja">- ～ へ いき たい です。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art06-popup">
+        <label class="art-popup-bg" for="art06-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When closing</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Nice to meet you.</p>
+                <p class="art-popup-phrase pron">- Yoroshiku onegai shi masu.</p>
+                <p class="art-popup-phrase ja">- よろしく おねがい し ます。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Thank you very much.</p>
+                <p class="art-popup-phrase pron">- Arigatou gozai masu.</p>
+                <p class="art-popup-phrase ja">- ありがとう ござい ます。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art07-popup">
+        <label class="art-popup-bg" for="art07-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When you can't hear or understand</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I couldn't hear you.</p>
+                <p class="art-popup-phrase pron">- Yoku kikoe mase nn deshita.</p>
+                <p class="art-popup-phrase ja">- よく きこえ ませ ん でした。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please say it again.</p>
+                <p class="art-popup-phrase pron">- Mou ichido onegai shi masu.</p>
+                <p class="art-popup-phrase ja">- もう いちど おねがい し ます。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art08-popup">
+        <label class="art-popup-bg" for="art08-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When you want the explanation changed</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Please speak slowly.</p>
+                <p class="art-popup-phrase pron">- Yukkuri hanashite kudasai.</p>
+                <p class="art-popup-phrase ja">- ゆっくり はなして ください。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please explain it simply.</p>
+                <p class="art-popup-phrase pron">- Kanntannni setsumei shite kudasai.</p>
+                <p class="art-popup-phrase ja">- かんたんに せつめい して ください。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art09-popup">
+        <label class="art-popup-bg" for="art09-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When talking about blackboard writing, notes, and handouts</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; It's haerd to takenotes.</p>
+                <p class="art-popup-phrase pron">- Noto wo toru no ga muzukashii desu.</p>
+                <p class="art-popup-phrase ja">- のーと を とる の が むずかしい です。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; What is this handout?</p>
+                <p class="art-popup-phrase pron">- Kono purinnto wa nani desu ka?</p>
+                <p class="art-popup-phrase ja">- この ぷりんと は なん です か？</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art10-popup">
+        <label class="art-popup-bg" for="art10-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When talking about assignments or homework</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Is this homework?</p>
+                <p class="art-popup-phrase pron">- Kore wa shukudai desu ka?</p>
+                <p class="art-popup-phrase ja">- これ は しゅくだい です か？</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; When is it due?</p>
+                <p class="art-popup-phrase pron">- Itsu made desu ka?</p>
+                <p class="art-popup-phrase ja">- いつ まで です か？</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art11-popup">
+        <label class="art-popup-bg" for="art11-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When speaking or participating</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; May I ask a question?</p>
+                <p class="art-popup-phrase pron">- Shitsumonn shite mo ii desu ka?</p>
+                <p class="art-popup-phrase ja">- しつもん して も いい です か？</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; I don't know the answer.</p>
+                <p class="art-popup-phrase pron">- Kotae ga wakari mase nn.</p>
+                <p class="art-popup-phrase ja">- こたえ が わかり ませ ん。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="art12-popup">
+        <label class="art-popup-bg" for="art12-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="../images/popup/check.png">
+                <h2 class="art-popup-heading">When feeling unwell</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I feeel a little sick.</p>
+                <p class="art-popup-phrase pron">- Sukoshi kibunn ga warui desu.</p>
+                <p class="art-popup-phrase ja">- すこし きぶん が わるい です。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; May I go to the nurse's office?</p>
+                <p class="art-popup-phrase pron">- Hokennshitsu e itte mo ii desu ka?</p>
+                <p class="art-popup-phrase ja">- ほけんしつ へ いって も いい です か？</p>
+            </div>
+        </div>
+
+
+        
+        <footer id="footer">
+            <p id="footer-copyright">&copy; 2026 MarronCMD</p>
+        </footer>
+        <script type="text/javascript" src="../scripts/search.js"></script>
+    </body>
+</html>

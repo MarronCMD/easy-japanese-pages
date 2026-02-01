@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FHS EASY JAPANESE PORTAL</title>
+        <title>FHS EASY JAPANESE PORTAL - Home</title>
         <!-- Reset CSS (ress.css) -->
          <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <!-- Main CSS -->
@@ -11,19 +11,27 @@
     </head>
     <body>
         <header id="header">
-            <img id="header-logo" src="https://marroncmd.github.io/easy-japanese-assets/images/header/logo.png">
+            <div id="header-img-wrapper">
+                <img id="header-humberger" src="https://marroncmd.github.io/easy-japanese-assets/images/header/humberger_icon.png">
+                <img id="header-logo" src="https://marroncmd.github.io/easy-japanese-assets/images/header/logo.png">
+            </div>
             <nav id="header-nav">
                 <div id="header-lang-selecter-wrapper">
                     <select id="header-lang-selecter">
                         <option value="en">English (English)</option>
-                        <option value="de">Deutsch (German)</option>
-                        <option value="fr">français (French)</option>
                         <option value="ja">日本語 (Japanese)</option>
-                        <option value="zh">中文 (Chinese)</option>
                     </select>
                 </div>
             </nav>
         </header>
+        <nav id="nav">
+            <ul id="nav-list">
+                <li class="nav-list-item"><a href=""><span class="nav-list-item-num">01</span>HOME</a></li>
+                <li class="nav-list-item"><a href="pages/search.html"><span class="nav-list-item-num">02</span>SEARCH</a></li>
+            </ul>
+            <p id="nav-close">CLOSE</p>
+        </nav>
+        <div id="nav-bg"></div>
         <div id="thumbnail">
             <div class="thumbnail-btn-wrapper left">
                 <img class="thumbnail-btn-bg" src="https://marroncmd.github.io/easy-japanese-assets/images/thumbnail/btn_bg.png">
@@ -40,10 +48,11 @@
                 <h1 id="main-title">FHS EASY JAPANESE PORTAL</h1>
                 <hr id="main-title-ul">
             </div>
-            <div id="main-search-box-wrapper">
-                <img id="main-search-btn" src="https://marroncmd.github.io/easy-japanese-assets/images/main/search_btn.png">
-                <input id="main-search-box" type="text" name="search-box" placeholder="Enter keywords in English">
-            </div>
+            <a href="pages/search.html" target="_blank">
+                <div id="main-search-btn-wrapper">
+                    <p id="main-search-btn">Search by Keywords</p>
+                </div>
+            </a>
             <section class="sect" id="sect01">
                 <div class="sect-heading-wrapper">
                     <h2 class="sect-heading">First Day of School / Orientation</h2>
@@ -80,74 +89,147 @@
                             <h3 class="sect-art-heading">When being guided or moving</h3>
                         </div>
                     </label>
-                    <label for="sect00-art00-popup">
-                        <div class="sect-art" id="sect00-art00">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/00/art00.jpg">
-                            <h3 class="sect-art-heading">404 Not Found</h3>
+                    <label for="sect01-art06-popup">
+                        <div class="sect-art" id="sect01-art06">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art06.jpg">
+                            <h3 class="sect-art-heading">When closing</h3>
                         </div>
                     </label>
                 </div>
             </section>
             <section class="sect" id="sect02">
                 <div class="sect-heading-wrapper">
-                    <h2 class="sect-heading">First Day of School / Orientation</h2>
+                    <h2 class="sect-heading">During Class</h2>
                     <hr class="sect-heading-ul">
                 </div>
                 <div class="sect-art-wrapper">
-                    <label for="sect01-art01-popup">
-                        <div class="sect-art" id="sect01-art01">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art01.jpg">
-                            <h3 class="sect-art-heading">When introducing yourself</h3>
+                    <label for="sect02-art01-popup">
+                        <div class="sect-art" id="sect02-art01">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art01.jpg">
+                            <h3 class="sect-art-heading">When you can't hear or understand</h3>
                         </div>
                     </label>
-                    <label for="sect01-art02-popup">
-                        <div class="sect-art" id="sect01-art02">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art02.jpg">
-                            <h3 class="sect-art-heading">When conveying your Japanese language ability</h3>
+                    <label for="sect02-art02-popup">
+                        <div class="sect-art" id="sect02-art02">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art02.jpg">
+                            <h3 class="sect-art-heading">When you want the explanation changed</h3>
                         </div>
                     </label>
-                    <label for="sect01-art03-popup">
-                        <div class="sect-art" id="sect01-art03">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art03.jpg">
-                            <h3 class="sect-art-heading">When asking someone to repeat or confirm something</h3>
+                    <label for="sect02-art03-popup">
+                        <div class="sect-art" id="sect02-art03">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art03.jpg">
+                            <h3 class="sect-art-heading">When talking about blackboard writing, notes, and handouts</h3>
                         </div>
                     </label>
-                    <label for="sect01-art04-popup">
-                        <div class="sect-art" id="sect01-art04">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art04.jpg">
-                            <h3 class="sect-art-heading">When seeking help</h3>
+                    <label for="sect02-art04-popup">
+                        <div class="sect-art" id="sect02-art04">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art04.jpg">
+                            <h3 class="sect-art-heading">When talking about assignments or homework</h3>
                         </div>
                     </label>
-                    <label for="sect01-art05-popup">
-                        <div class="sect-art" id="sect01-art05">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/01/art05.jpg">
-                            <h3 class="sect-art-heading">When being guided or moving</h3>
+                    <label for="sect02-art05-popup">
+                        <div class="sect-art" id="sect02-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art05.jpg">
+                            <h3 class="sect-art-heading">When speaking or participating</h3>
                         </div>
                     </label>
-                    <label for="sect00-art00-popup">
-                        <div class="sect-art" id="sect00-art00">
-                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/00/art00.jpg">
-                            <h3 class="sect-art-heading">404 Not Found</h3>
+                    <label for="sect02-art06-popup">
+                        <div class="sect-art" id="sect02-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/02/art06.jpg">
+                            <h3 class="sect-art-heading">When feeling unwell</h3>
+                        </div>
+                    </label>
+                </div>
+            </section>
+            <section class="sect" id="sect03">
+                <div class="sect-heading-wrapper">
+                    <h2 class="sect-heading">Break Time</h2>
+                    <hr class="sect-heading-ul">
+                </div>
+                <div class="sect-art-wrapper">
+                    <label for="sect03-art01-popup">
+                        <div class="sect-art" id="sect03-art01">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art01.jpg">
+                            <h3 class="sect-art-heading">When starting a conversation</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art02-popup">
+                        <div class="sect-art" id="sect03-art02">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art02.jpg">
+                            <h3 class="sect-art-heading">When joining a conversation</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art03-popup">
+                        <div class="sect-art" id="sect03-art03">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art03.jpg">
+                            <h3 class="sect-art-heading">Empathy, response, reaction</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art04-popup">
+                        <div class="sect-art" id="sect03-art04">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art04.jpg">
+                            <h3 class="sect-art-heading">When talking about things you like</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art05-popup">
+                        <div class="sect-art" id="sect03-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art05.jpg">
+                            <h3 class="sect-art-heading">When declining or explaining that it's difficult</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art06-popup">
+                        <div class="sect-art" id="sect03-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art06.jpg">
+                            <h3 class="sect-art-heading">When break time ends</h3>
+                        </div>
+                    </label>
+                </div>
+            </section>
+            <section class="sect" id="sect04">
+                <div class="sect-heading-wrapper">
+                    <h2 class="sect-heading">Lunch Time</h2>
+                    <hr class="sect-heading-ul">
+                </div>
+                <div class="sect-art-wrapper">
+                    <label for="sect03-art01-popup">
+                        <div class="sect-art" id="sect03-art01">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art01.jpg">
+                            <h3 class="sect-art-heading">When starting a conversation</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art02-popup">
+                        <div class="sect-art" id="sect03-art02">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art02.jpg">
+                            <h3 class="sect-art-heading">When joining a conversation</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art03-popup">
+                        <div class="sect-art" id="sect03-art03">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art03.jpg">
+                            <h3 class="sect-art-heading">Empathy, response, reaction</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art04-popup">
+                        <div class="sect-art" id="sect03-art04">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art04.jpg">
+                            <h3 class="sect-art-heading">When talking about things you like</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art05-popup">
+                        <div class="sect-art" id="sect03-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art05.jpg">
+                            <h3 class="sect-art-heading">When declining or explaining that it's difficult</h3>
+                        </div>
+                    </label>
+                    <label for="sect03-art06-popup">
+                        <div class="sect-art" id="sect03-art05">
+                            <img class="sect-art-img" src="https://marroncmd.github.io/easy-japanese-assets/images/sect/03/art06.jpg">
+                            <h3 class="sect-art-heading">When break time ends</h3>
                         </div>
                     </label>
                 </div>
             </section>
         </main>
-
-        <!-- ポップアップテンプレート／最小構成 -->
-        <input type="checkbox" class="art-popup-cb" id="sect00-art00-popup">
-        <label class="art-popup-bg" for="sect00-art00-popup"></label>
-        <div class="art-popup">
-            <div class="art-popup-heading-wrapper">
-                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
-                <h2 class="art-popup-heading">A</h2>
-            </div>
-            <div class="art-popup-phrase-wrapper">
-                <p class="art-popup-phrase en">A</p>
-                <p class="art-popup-phrase pron">- </p>
-                <p class="art-popup-phrase ja">- </p>
-            </div>
-        </div>
 
         <!-- Popup Contents -->
         <input type="checkbox" class="art-popup-cb" id="sect01-art01-popup">
@@ -255,11 +337,143 @@
                 <p class="art-popup-phrase ja">- ～ へ いき たい です。</p>
             </div>
         </div>
+        <input type="checkbox" class="art-popup-cb" id="sect01-art06-popup">
+        <label class="art-popup-bg" for="sect01-art06-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When closing</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Nice to meet you.</p>
+                <p class="art-popup-phrase pron">- Yoroshiku onegai shi masu.</p>
+                <p class="art-popup-phrase ja">- よろしく おねがい し ます。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Thank you very much.</p>
+                <p class="art-popup-phrase pron">- Arigatou gozai masu.</p>
+                <p class="art-popup-phrase ja">- ありがとう ござい ます。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art01-popup">
+        <label class="art-popup-bg" for="sect02-art01-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When you can't hear or understand</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I couldn't hear you.</p>
+                <p class="art-popup-phrase pron">- Yoku kikoe mase nn deshita.</p>
+                <p class="art-popup-phrase ja">- よく きこえ ませ ん でした。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please say it again.</p>
+                <p class="art-popup-phrase pron">- Mou ichido onegai shi masu.</p>
+                <p class="art-popup-phrase ja">- もう いちど おねがい し ます。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art02-popup">
+        <label class="art-popup-bg" for="sect02-art02-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When you want the explanation changed</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Please speak slowly.</p>
+                <p class="art-popup-phrase pron">- Yukkuri hanashite kudasai.</p>
+                <p class="art-popup-phrase ja">- ゆっくり はなして ください。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; Please explain it simply.</p>
+                <p class="art-popup-phrase pron">- Kanntannni setsumei shite kudasai.</p>
+                <p class="art-popup-phrase ja">- かんたんに せつめい して ください。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art03-popup">
+        <label class="art-popup-bg" for="sect02-art03-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When talking about blackboard writing, notes, and handouts</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; It's haerd to takenotes.</p>
+                <p class="art-popup-phrase pron">- Noto wo toru no ga muzukashii desu.</p>
+                <p class="art-popup-phrase ja">- のーと を とる の が むずかしい です。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; What is this handout?</p>
+                <p class="art-popup-phrase pron">- Kono purinnto wa nani desu ka?</p>
+                <p class="art-popup-phrase ja">- この ぷりんと は なん です か？</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art04-popup">
+        <label class="art-popup-bg" for="sect02-art04-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When talking about assignments or homework</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; Is this homework?</p>
+                <p class="art-popup-phrase pron">- Kore wa shukudai desu ka?</p>
+                <p class="art-popup-phrase ja">- これ は しゅくだい です か？</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; When is it due?</p>
+                <p class="art-popup-phrase pron">- Itsu made desu ka?</p>
+                <p class="art-popup-phrase ja">- いつ まで です か？</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art05-popup">
+        <label class="art-popup-bg" for="sect02-art05-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When speaking or participating</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; May I ask a question?</p>
+                <p class="art-popup-phrase pron">- Shitsumonn shite mo ii desu ka?</p>
+                <p class="art-popup-phrase ja">- しつもん して も いい です か？</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; I don't know the answer.</p>
+                <p class="art-popup-phrase pron">- Kotae ga wakari mase nn.</p>
+                <p class="art-popup-phrase ja">- こたえ が わかり ませ ん。</p>
+            </div>
+        </div>
+        <input type="checkbox" class="art-popup-cb" id="sect02-art06-popup">
+        <label class="art-popup-bg" for="sect02-art06-popup"></label>
+        <div class="art-popup">
+            <div class="art-popup-heading-wrapper">
+                <img class="art-popup-heading-icon" src="https://marroncmd.github.io/easy-japanese-assets/images/popup/check.png">
+                <h2 class="art-popup-heading">When feeling unwell</h2>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9332; I feeel a little sick.</p>
+                <p class="art-popup-phrase pron">- Sukoshi kibunn ga warui desu.</p>
+                <p class="art-popup-phrase ja">- すこし きぶん が わるい です。</p>
+            </div>
+            <div class="art-popup-phrase-wrapper">
+                <p class="art-popup-phrase en">&#9333; May I go to the nurse's office?</p>
+                <p class="art-popup-phrase pron">- Hokennshitsu e itte mo ii desu ka?</p>
+                <p class="art-popup-phrase ja">- ほけんしつ へ いって も いい です か？</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <footer id="footer">
+            <p id="footer-copyright">&copy; 2026 MarronCMD</p>
+        </footer>
+        <script type="text/javascript" src="scripts/main.js"></script>
     </body>
 </html>
-
-
-
-
-
-

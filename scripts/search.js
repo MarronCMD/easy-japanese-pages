@@ -63,7 +63,7 @@ var articleList = [
 
 arts = document.getElementById('arts');
 var addLists = function (contents) {
-    const path ="../images/sect/"
+    const path ="https://marroncmd.github.io/easy-japanese-assets/images/sect/"
     var html = '';
     for (i = 0; i < contents.length; i++) {
         html += '<label class="art-label" for="art' + contents[i].number + '-popup"><div class="art" id="art' + contents[i].number + '"><img class="art-img" src="' + path + contents[i].img + '"><h3 class="art-heading">' + contents[i].name + '</h3></div></label>';
@@ -126,4 +126,5 @@ humbergerClose.onclick = function () {
 navBackground.onclick = function () {
     nav.style.left = "-100%";
     navBackground.style.display = "none";
+
 }

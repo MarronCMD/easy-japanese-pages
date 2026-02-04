@@ -7,6 +7,7 @@
         <!-- Reset CSS (ress.css) -->
          <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <!-- Main CSS -->
+         <link rel="stylesheet" href="../styles/main.css">
          <link rel="stylesheet" href="../styles/search.css">
     </head>
     <body>
@@ -25,10 +26,23 @@
             </nav>
         </header>
         <nav id="nav">
-            <h3 class="nav-title">- MENU -</h3>
+            <h3 class="nav-title">MENU</h3>
+            <hr class="nav-ul">
             <ul id="nav-list">
                 <li class="nav-list-item"><a href="../index.html"><span class="nav-list-item-num">01</span>HOME</a></li>
                 <li class="nav-list-item"><a href=""><span class="nav-list-item-num">02</span>SEARCH</a></li>
+            </ul>
+            <h3 class="nav-title">LANGUAGE</h3>
+            <hr class="nav-ul">
+            <select id="nav-lang-selecter">
+                <option value="en">English</option>
+                <option value="ja">日本語 (Japanese)</option>
+            </select>
+            <h3 class="nav-title">FORM</h3>
+            <hr class="nav-ul">
+            <ul id="nav-list">
+                <li class="nav-list-item"><a href=""><span class="nav-list-item-num">01</span>REPORT</a></li>
+                <li class="nav-list-item"><a href=""><span class="nav-list-item-num">02</span>SURVEY</a></li>
             </ul>
             <p id="nav-close">CLOSE</p>
         </nav>
@@ -277,14 +291,9 @@
                 <p class="art-popup-phrase ja">- ほけんしつ へ いって も いい です か？</p>
             </div>
         </div>
-
-
-        
         <footer id="footer">
             <p id="footer-copyright">&copy; 2026 MarronCMD</p>
         </footer>
         <script type="text/javascript" src="../scripts/search.js"></script>
     </body>
 </html>
-
-

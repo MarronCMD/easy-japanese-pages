@@ -1,3 +1,4 @@
+// Search Function
 var articleList = [
     {
         name: 'When introducing yourself',
@@ -103,6 +104,9 @@ searchBox.addEventListener('input', function () {
     }
 });
 
+
+
+// Humberger & Navigation Menu
 var humberger = document.getElementById('header-humberger');
 var humbergerClose = document.getElementById('nav-close');
 var nav = document.getElementById('nav');
@@ -112,19 +116,22 @@ humberger.onclick = function () {
     {
         nav.style.left = "-100%";
         navBackground.style.display = "none";
+    humbergerClose.style.left = "-100%";
     }
     else {
         nav.style.left = "0";
         navBackground.style.display = "unset";
+        humbergerClose.style.left = "75px";  
     }
 }
 
 humbergerClose.onclick = function () {
     nav.style.left = "-100%";
     navBackground.style.display = "none";
+    humbergerClose.style.left = "-100%";
 }
 navBackground.onclick = function () {
     nav.style.left = "-100%";
     navBackground.style.display = "none";
-
+    humbergerClose.style.left = "-100%";
 }

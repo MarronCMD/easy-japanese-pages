@@ -59,12 +59,67 @@ var articleList = [
         name: 'When feeling unwell',
         number: '12',
         img: '02/art06.jpg'
+    },
+    {
+        name: 'When starting a conversation',
+        number: '13',
+        img: '03/art01.jpg'
+    },
+    {
+        name: 'When joining a conversation',
+        number: '14',
+        img: '03/art02.jpg'
+    },
+    {
+        name: 'Empathy, response, reaction',
+        number: '15',
+        img: '03/art03.jpg'
+    },
+    {
+        name: 'When talking about things you like',
+        number: '16',
+        img: '03/art04.jpg'
+    },
+    {
+        name: 'When declining or explaining that it\'s difficult',
+        number: '17',
+        img: '03/art05.jpg'
+    },
+    {
+        name: 'When break time ends',
+        number: '18',
+        img: '03/art06.jpg'
+    },
+    {
+        name: 'When taking a seat',
+        number: '19',
+        img: '04/art01.jpg'
+    },
+    {
+        name: 'When looking at the menu',
+        number: '20',
+        img: '04/art02.jpg'
+    },
+    {
+        name: 'When communicating dietary restrictions',
+        number: '21',
+        img: '04/art03.jpg'
+    },
+    {
+        name: 'When making a payment',
+        number: '22',
+        img: '04/art04.jpg'
+    },
+    {
+        name: 'When finishing a meal',
+        number: '23',
+        img: '04/art05.jpg'
     }
 ]
 
 arts = document.getElementById('arts');
 var addLists = function (contents) {
-    const path ="https://marroncmd.github.io/easy-japanese-assets/images/sect/"
+    const path ="../images/sect/"
     var html = '';
     for (i = 0; i < contents.length; i++) {
         html += '<label class="art-label" for="art' + contents[i].number + '-popup"><div class="art" id="art' + contents[i].number + '"><img class="art-img" src="' + path + contents[i].img + '"><h3 class="art-heading">' + contents[i].name + '</h3></div></label>';

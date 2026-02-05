@@ -101,7 +101,7 @@ var articleList = [
         img: '04/art02.jpg'
     },
     {
-        name: 'When communicating dietary restrictions',
+        name: 'When telling someone about things you can\'t eat',
         number: '21',
         img: '04/art03.jpg'
     },
@@ -190,4 +190,5 @@ navBackground.onclick = function () {
     navBackground.style.display = "none";
     humbergerClose.style.left = "-100%";
 }
+
 

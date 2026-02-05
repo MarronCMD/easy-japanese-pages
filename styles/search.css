@@ -49,6 +49,9 @@
 }
 
 /* Art */
+#arts {
+    margin-bottom: 30px;
+}
 .art-wrapper {
     height: auto;
     width: 80vw;
@@ -189,3 +192,4 @@
         max-width: 210px;
     }
 }
+

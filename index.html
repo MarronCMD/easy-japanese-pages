@@ -17,9 +17,10 @@
             </div>
             <nav id="header-nav">
                 <div id="header-lang-selecter-wrapper">
-                    <select id="header-lang-selecter">
-                        <option value="en">English (English)</option>
-                        <option value="ja">Coming soon...</option>
+                    <select id="header-lang-selecter" onChange="location.href=value;">
+                        <option value="">English (English)</option>
+                        <option value="pages/lang/ja.html">日本語 (Japanese)</option>
+                        <option value="">Coming soon...</option>
                     </select>
                 </div>
             </nav>
@@ -33,9 +34,10 @@
             </ul>
             <h3 class="nav-title">LANGUAGE</h3>
             <hr class="nav-ul">
-            <select id="nav-lang-selecter">
-                <option value="en">English</option>
-                <option value="ja">Coming soon...</option>
+            <select id="nav-lang-selecter" onChange="location.href=value;">
+                <option value="">English (English)</option>
+                <option value="pages/lang/ja.html">日本語 (Japanese)</option>
+                <option value="">Coming soon...</option>
             </select>
             <h3 class="nav-title">FORM</h3>
             <hr class="nav-ul">
@@ -795,6 +797,7 @@
         <script type="text/javascript" src="scripts/main.js"></script>
     </body>
 </html>
+
 
 
 
